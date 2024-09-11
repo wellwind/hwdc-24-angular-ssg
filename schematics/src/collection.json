@@ -1,0 +1,15 @@
+{
+  "$schema": "../../node_modules/@angular-devkit/schematics/collection-schema.json",
+  "schematics": {
+    "generate-content-markdown": {
+      "factory": "../dist/generate-content-markdown/generate-content-markdown.schematics#generateContentMarkdown",
+      "description": "Generate content",
+      "schema": "./generate-content-markdown/schema.json"
+    },
+    "generate-content-list": {
+      "factory": "../dist/generate-content-list/generate-content-list.schematics#generateContentList",
+      "description": "Generate content list",
+      "schema": "./generate-content-list/schema.json"
+    }
+  }
+}

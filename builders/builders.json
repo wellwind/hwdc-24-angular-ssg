@@ -1,0 +1,9 @@
+{
+  "builders": {
+    "preview-generated-site": {
+      "implementation": "./dist/preview-generated-site.builder.js",
+      "schema": "./src/preview-generated-site/schema.json",
+      "description": "Preview generated site"
+    }
+  }
+}

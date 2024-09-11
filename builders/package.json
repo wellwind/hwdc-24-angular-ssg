@@ -1,0 +1,12 @@
+{
+  "name": "@ssg-demo/builders",
+  "version": "1.0.0",
+  "scripts": {
+    "build": "tsc -p tsconfig.json"
+  },
+  "builders": "builders.json",
+  "dependencies": {
+    "@angular-devkit/architect": "^0.1802.3",
+    "@angular-devkit/core": "^18.2.3"
+  }
+}

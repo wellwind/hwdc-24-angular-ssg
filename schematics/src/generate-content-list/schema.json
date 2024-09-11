@@ -1,0 +1,25 @@
+{
+  "$schema": "http://json-schema.org/schema",
+  "$id": "generateContentList",
+  "title": "Generate Content List",
+  "type": "object",
+  "properties": {
+    "contentDir": {
+      "description": "The directory of the content.",
+      "type": "string"
+    },
+    "contentListPath": {
+      "description": "The path of the content list.",
+      "type": "string"
+    },
+    "routesPath": {
+      "description": "The path of the routes.",
+      "type": "string"
+    }
+  },
+  "required": [
+    "contentDir",
+    "contentListPath",
+    "routesPath"
+  ]
+}
